@@ -2,7 +2,7 @@ import React from 'react';
 
 export const About = () => {
     return (
-        <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+        <div name='about' className='w-full md:h-screen bg-[#0a192f] text-gray-300'>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8'>
                     <div className='sm:text-right pb-8 pl-4'>
@@ -16,11 +16,9 @@ export const About = () => {
                         </div>
                         <div>
                             <p>
-                                im a passionate about building excellent software
-                                that improves the lives of those around me. i spezialize in creating software for client
-                                randing from individuals and small business all the way to large enterprise
-                                corporations. what would you do if you had a software expert available at your
-                                fingertips
+                                I am passionate about creating software that improves the lives of those around me. I
+                                use the following technologies: React, Redux, JS, TypeScript, HTML, CSS.
+                                I study new technologies for developing user interfaces.
                             </p>
                         </div>
                     </div>
